@@ -1,5 +1,5 @@
 # takes a user checks it against all the other ones and spits out a user thats most similar 
-#grabs all pairs of users and computes something and then jacarrd 
+#grabs all pairs of users and computes something and then jacarrd /cosine
 #!/Users/kassidywall/anaconda3/bin/python
 import sys
 import json

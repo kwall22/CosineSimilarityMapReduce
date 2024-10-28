@@ -8,7 +8,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 def read_data(file_path):
     sources = []
     content = []
-
     with open(file_path, 'r') as f:
         for line in f:
             data = json.loads(line)
@@ -31,7 +30,7 @@ def create_heatmap(similarity, labels, cmap="YlGnBu"):
     plt.show()
 
 def main():
-    file_path = '/opt/homebrew/Cellar/hadoop/3.4.0/fancier_news_articles/cosine_sim_heatmap/outlet_dicts'  # Update this path if needed
+    file_path = '/opt/homebrew/Cellar/hadoop/3.4.0/fancier_news_articles/cosine_sim_heatmap/outlet_dicts'
     labels, content = read_data(file_path)
     similarity_matrix = compute_cosine_similarity(content)
 

@@ -1,5 +1,5 @@
-#takes a user, gives to reducer jk
-#get all of the pairs of users and thier orders 
+#takes a user, gives to reducer
+#get all of the pairs of users and their orders 
 #!/Users/kassidywall/anaconda3/bin/python
 import sys
 import itertools
